@@ -34,10 +34,10 @@ figure figcaption:hover::after {transform: scale(1);}
 @media (max-width: 600px)
 {
     main {width: 85%;}
-    h1 {font-size: 25px;}
+    h1 {font-size: 20px;}
     figure {margin-top: 20px;}
     figure img {width: 120px; height: 120px;}
-    h2 {font-size: 20px;}
+    h2 {font-size: 18px;}
     .input input {transform: scale(0.95); font-size: 12px;}
     .input input:focus {transform: scale(1);}
     .input button {padding: 4px 7px; font-size: 10px;}
