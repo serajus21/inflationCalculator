@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inflation Calculator</title>
+    <!-- linking -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favIcon.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/7b8daf54c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <!-- brief -->
+        <h1><i class="fa-solid fa-coins"></i> Inflation Rate(%)</h1>
+        <figure>
+            <img src="indexElement.gif" alt="">
+            <figcaption data-tool-tip="Inflation is the rate at which prices for goods and services rise."><i class="fa-regular fa-hand-pointer"></i> What is inflation?</figcaption>
+        </figure>
+        <!-- input -->
+        <section class="input">
+            <h2><i class="fa-solid fa-calculator"></i> Calculate yours</h2>
+            <input type="number" id="baseYearPrice" placeholder="Enter base year product-price">
+            <input type="number" id="currentYearPrice" placeholder="Enter current year product-price">
+            <button onclick="inflation()"> <i class="fa-solid fa-money-bill-trend-up"></i> View Rate (%)</button>
+        </section>
+        <!-- output -->
+        <p id="output"> % Rate will appear here...</p>
+    </main>
+</body>
+</html>
